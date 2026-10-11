@@ -23,7 +23,7 @@ python crawl.py export                                       # whole cumulative 
 
 - Nicknames, profile images and links, user ids and blog-author details are stripped before anything is saved — raw JSON dumps and probe summaries included. A reviewer can only be distinguished across reviews when a secret `REVIEW_SALT` is set, and then only as a 12-character keyed hash.
 - Only the tracked places are visited, once a day, with a 4–8 second pause between places. If Naver asks for a CAPTCHA the place is recorded as an error and retried later; the tool never tries to bypass it.
-- Naver's terms restrict automated access; this is small-scale collection for a supervised research project, within the scope agreed with the advisor.
+- Naver's terms restrict automated access; this is small-scale collection for a supervised undergraduate research project, and its scope is for the project's advisor to set.
 
 ## Layout
 
